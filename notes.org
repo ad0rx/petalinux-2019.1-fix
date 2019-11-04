@@ -1,0 +1,7 @@
+#+TITLE:PetaLinux Fix
+
+* Overview
+
+Simple project to apply a patch to 2019.1 petalinux installation that
+will allow the ZCU102 BSP to build. Basically I just disable the
+update_font_cache and update_icon_cache post scripts (aarch64)
